@@ -1,5 +1,6 @@
-package com.sherlock.gb.networkstorage.gbnetworkstorage;
+package com.sherlock.gb.networkstorage;
 
+import com.sherlock.gb.networkstorage.LoginController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;

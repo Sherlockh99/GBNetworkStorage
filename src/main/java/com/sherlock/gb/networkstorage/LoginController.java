@@ -1,5 +1,6 @@
-package com.sherlock.gb.networkstorage.gbnetworkstorage;
+package com.sherlock.gb.networkstorage;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -49,5 +50,10 @@ public class LoginController {
         }
 
          */
+    }
+
+    public void onRegistrationButtonClick(ActionEvent actionEvent) {
+        App.setRoot("reg");
+
     }
 }

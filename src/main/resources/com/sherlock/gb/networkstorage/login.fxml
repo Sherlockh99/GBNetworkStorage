@@ -10,7 +10,7 @@
 <?import javafx.scene.control.PasswordField?>
 <?import java.net.URL?>
 <VBox alignment="CENTER" spacing="2.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.sherlock.gb.networkstorage.gbnetworkstorage.LoginController">
+      fx:controller="com.sherlock.gb.networkstorage.LoginController">
 
     <padding>
         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
@@ -26,5 +26,7 @@
     <PasswordField fx:id="passwordField" HBox.hgrow="ALWAYS" promptText="password"/>
 
     <Label fx:id="loginText"/>
-    <Button text="Login / Registration" onAction="#onLoginButtonClick"/>
+    <Button text="Login" onAction="#onLoginButtonClick"/>
+
+    <Button text="Registration" onAction="#onRegistrationButtonClick"/>
 </VBox>

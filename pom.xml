@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.sherlock.gb.networkstorage.gbnetworkstorage/com.sherlock.gb.networkstorage.gbnetworkstorage.HelloApplication
+                                com.sherlock.gb.networkstorage.gbnetworkstorage/com.sherlock.gb.networkstorage.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

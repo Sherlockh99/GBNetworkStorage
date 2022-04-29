@@ -13,11 +13,13 @@ import java.io.IOException;
 
 
 public class LoginController {
+
     private Stage regStage;
-    private RegController regController;
+
 
     @FXML
     protected void onLoginButtonClick() {
+        /*
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reg.fxml"));
             Parent root = fxmlLoader.load();
@@ -29,12 +31,14 @@ public class LoginController {
             regStage.initModality(Modality.APPLICATION_MODAL);
             regStage.initStyle(StageStyle.UTILITY);
 
+
             regController = fxmlLoader.getController();
             regController.setController(this);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+         */
     }
 
     public void tryToReg(String login, String password, String nickname) {
@@ -49,11 +53,11 @@ public class LoginController {
             e.printStackTrace();
         }
 
-         */
+        */
     }
 
     public void onRegistrationButtonClick(ActionEvent actionEvent) {
-        App.setRoot("reg");
+
 
     }
 }

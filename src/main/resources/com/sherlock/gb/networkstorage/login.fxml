@@ -26,7 +26,7 @@
     <PasswordField fx:id="passwordField" HBox.hgrow="ALWAYS" promptText="password"/>
 
     <Label fx:id="loginText"/>
-    <Button text="Login" onAction="#onLoginButtonClick"/>
+    <Button text="Login" onAction="#onLoginButtonClick" focusTraversable="false"/>
 
-    <Button text="Registration" onAction="#onRegistrationButtonClick"/>
+    <Button text="Registration" onAction="#onRegistrationButtonClick" focusTraversable="false"/>
 </VBox>

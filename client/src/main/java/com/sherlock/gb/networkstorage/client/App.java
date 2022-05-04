@@ -1,4 +1,4 @@
-package com.sherlock.gb.networkstorage;
+package com.sherlock.gb.networkstorage.client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

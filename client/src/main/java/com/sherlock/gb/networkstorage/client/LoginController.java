@@ -5,6 +5,10 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -14,11 +18,22 @@ import java.io.IOException;
 
 public class LoginController {
 
-    private Stage regStage;
+    @FXML
+    public PasswordField passwordField;
+    @FXML
+    public TextField loginField;
 
 
     @FXML
     protected void onLoginButtonClick() {
+        String login = loginField.getText();
+        if(login.isEmpty() || login.isBlank()){
+            Alert alert = new Alert(Alert.AlertType.WARNING,"Не указан логин", ButtonType.OK);
+            alert.showAndWait();
+            return;
+        }
+
+
         /*
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reg.fxml"));
@@ -57,7 +72,6 @@ public class LoginController {
     }
 
     public void onRegistrationButtonClick(ActionEvent actionEvent) {
-
 
     }
 }

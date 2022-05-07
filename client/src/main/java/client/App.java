@@ -1,5 +1,6 @@
 package client;
 
+import client.auth.Authorization;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,6 +12,8 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
+
+    private Authorization authorization;
 
     @Override
     public void start(Stage stage) throws IOException {

@@ -1,4 +1,4 @@
-package com.sherlock.gb.networkstorage.client;
+package client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("login"), 640, 640);
-        //stage.setTitle("GB Network Storage Registration");
+        stage.setTitle("GB Network Storage Registration");
         stage.setScene(scene);
         stage.show();
     }

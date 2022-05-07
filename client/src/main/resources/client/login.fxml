@@ -10,14 +10,14 @@
 <?import javafx.scene.control.PasswordField?>
 <?import java.net.URL?>
 <VBox alignment="CENTER" spacing="2.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.sherlock.gb.networkstorage.client.LoginController">
+      fx:controller="client.LoginController">
 
     <padding>
         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
     </padding>
 
     <stylesheets>
-        <URL value="@../../../../../css/style.css"/>
+        <URL value="@../css/style.css"/>
     </stylesheets>
 
     <Label text="Login"/>

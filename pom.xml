@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>client</module>
-        <module>general</module>
     </modules>
     <name>GBNetworkStorage</name>
 
@@ -66,7 +65,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.sherlock.gb.networkstorage.gbnetworkstorage/com.sherlock.gb.networkstorage.client.App
+                                com.sherlock.gb.networkstorage.gbnetworkstorage/client.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

@@ -1,8 +1,7 @@
-module com.sherlock.gb.networkstorage.gbnetworkstorage {
+module client {
     requires javafx.controls;
     requires javafx.fxml;
 
-
-    opens com.sherlock.gb.networkstorage.client to javafx.fxml;
-    exports com.sherlock.gb.networkstorage.client;
+    exports client;
+    opens client to javafx.fxml;
 }

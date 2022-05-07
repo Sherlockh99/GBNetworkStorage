@@ -1,6 +1,6 @@
-package com.sherlock.gb.networkstorage.client.auth;
+package client.auth;
 
-import com.sherlock.gb.networkstorage.client.EnumRequests;
+import client.EnumRequests;
 
 public class Authorization implements Request{
     @Override

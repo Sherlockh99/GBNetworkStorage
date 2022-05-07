@@ -1,4 +1,4 @@
-package com.sherlock.gb.networkstorage.client;
+package client;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

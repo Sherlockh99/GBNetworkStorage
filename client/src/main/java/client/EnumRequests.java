@@ -1,4 +1,4 @@
-package com.sherlock.gb.networkstorage.client;
+package client;
 
 public enum EnumRequests {
     AUTH_REQUEST
